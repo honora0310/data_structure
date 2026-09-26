@@ -33,7 +33,6 @@ int segment(int *Height, int Left, int Right)
 int water(int *height, int N)
 {
     int total_water = 0;
-    int start = 1;
     
     for(int start=1 ; start<=N ; start++)
     {
